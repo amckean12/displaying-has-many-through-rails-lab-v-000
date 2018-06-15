@@ -9,5 +9,5 @@ class Appointment < ActiveRecord::Base
   def patient_name
     self.patient.name
   end
-  
+
 end
